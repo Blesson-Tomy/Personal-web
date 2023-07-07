@@ -10,7 +10,21 @@
     
 }
 
-.header{
+.header>a{
+   height: fit-content;
+   border: 1px solid green;
+
+}
+
+.header a .header-right{
+   height: fit-content;
+   border: 1px solid red;
+
+}
+
+.header-right{
+   display: flex;
+   align-items: right;
 
 }
 
@@ -88,7 +102,9 @@ img:hover{
     color: aqua;
 }
 
-
+section>div{
+   color: white;
+}
 
 /*This is only for LARGE devices.*/
 @media (min-width: 992px) 
@@ -231,11 +247,51 @@ img:hover{
 }
 
 
-.contact{
+.rel{
     color: white;
-    font: size 150%;
+    font-size: 2em;
     margin-top: auto;
     margin-bottom: auto;
-    display: block;
+    
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    
     
 }
+
+
+input{
+   height: 25px;
+   width: 250px;
+   border-radius: 5px;
+}
+
+.mn-txt{
+   color: white;
+   height:100px;
+   width: 70%;
+   border: 1px solid white;
+   margin: 20px;
+   padding: 10px;
+   border-radius: 20px;
+   
+}
+
+div h3{
+   color: aqua;
+}
+
+.ach{
+   display: flex;
+   flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   
+   
+  
+
+}
+
+
