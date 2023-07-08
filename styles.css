@@ -1,30 +1,60 @@
 .brief{
     
-    color: white;
+    color: rgb(55, 111, 201);
     display: flex;
     justify-content: center;
     padding: 30px;
-    border-bottom: 2px solid rgb(38, 36, 36);
+    border: 2px solid rgb(38, 36, 36);
     flex-direction: row;
+    background-color: rgb(101, 154, 239);
     
     
 }
 
-.header>a{
-   height: fit-content;
-   border: 1px solid green;
-
+.header{
+   display: flex;
+   
+   background-color: rgb(255, 255, 255);
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: right;
+    
+    
 }
+
+.header a{
+   height: 20px;
+   padding: 10px;
+   margin: 15px;
+   width: fit-content;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+   margin-right: 10px;  
+}
+
+.header a:hover{
+   border-bottom: 3px solid black;
+   margin-bottom: 10px;
+   color: rgb(55, 111, 201);
+}
+
 
 .header a .header-right{
    height: fit-content;
-   border: 1px solid red;
+   border: 1px solid rgb(0, 0, 0);
+   display: flex;
+   justify-content: right;
 
 }
 
 .header-right{
    display: flex;
    align-items: right;
+   padding-right: 30px;
 
 }
 
@@ -35,22 +65,18 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+#main:hover{
+
+   background-color: white;
 }
 
 body{
     margin: 0px;
-    background-color:rgb(0, 0, 0);
-}
-
-header{
-    background-color: black;
-    height: 75px;
-    display: flex;
-    flex-direction: row;
-    color: white;
-    justify-content: right;
-    
-
+    background-color:rgb(255, 255, 255);
 }
 
 .disp{
@@ -64,15 +90,7 @@ header{
     font-size: 1.2em;
 }
 
-img{
-    border: 2px solid white;
-   
-}
 
-img:hover{
-
-    background-color: white;
-}
 
 .card{
     
@@ -82,7 +100,7 @@ img:hover{
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid greenyellow ;
-    background-color: white;
+    background-color: rgb(116, 116, 116);
 
 }
 
@@ -247,17 +265,10 @@ section>div{
 }
 
 
-.rel{
-    color: white;
-    font-size: 2em;
-    margin-top: auto;
-    margin-bottom: auto;
-    
-    text-align: center;
-    border: 1px solid white;
-    border-radius: 20px;
-    
-    
+.footer{
+   height: fit-content;
+   
+
 }
 
 
@@ -271,9 +282,9 @@ input{
    color: white;
    height:100px;
    width: 70%;
-   border: 1px solid white;
+   border: 1px solid rgb(0, 0, 0);
    margin: 20px;
-   padding: 10px;
+  
    border-radius: 20px;
    
 }
@@ -293,5 +304,70 @@ div h3{
   
 
 }
+.Achievements{
+   border-top: 1px solid white ;
+   border-bottom: 1px solid white;
+
+}
+
+h2, p{
+   color: rgb(0, 0, 0);
+}
+
+h1{
+   color: #1363DF;
+}
+
+.mn-txt2{
+   display: flex;
+   flex-direction: row;
+   height: fit-content;
+   padding: 15px;
 
 
+}
+
+
+
+
+
+
+#himg{
+   height: 40px;
+   width: 40px;
+   float: inline-start;
+}
+
+#heading-projects,#heading-ach {
+   font-size: 2em;
+}
+
+ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+
+li{
+  justify-content:space-between;
+  padding: 15px;
+
+}
+footer{
+   border-top: 2px solid black;
+   
+
+}
+
+footer p{
+   text-align: center;
+   text-decoration: solid;
+}
+
+a:hover{
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+}
