@@ -6,19 +6,21 @@
     padding: 30px;
     border: 2px solid rgb(38, 36, 36);
     flex-direction: row;
-    background-color: rgb(101, 154, 239);
+    background-color: #161646;
     
     
 }
 
+
+
 .header{
    display: flex;
    
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(12, 5, 77);
     height: fit-content;
     display: flex;
     flex-direction: row;
-    color: white;
+    color: rgb(0, 0, 0);
     justify-content: right;
     
     
@@ -31,13 +33,13 @@
    width: fit-content;
    text-align: center;
    text-decoration: none;
-   color: black;
+   color: rgb(255, 255, 255);
    font-weight: bold;
    margin-right: 10px;  
 }
 
 .header a:hover{
-   border-bottom: 3px solid black;
+   border-bottom: 3px solid rgb(255, 255, 255);
    margin-bottom: 10px;
    color: rgb(55, 111, 201);
 }
@@ -75,8 +77,9 @@
 }
 
 body{
-    margin: 0px;
-    background-color:rgb(255, 255, 255);
+   margin: 0px;
+   background: rgb(2,0,36);
+   background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(88,88,180,1) 85%);
 }
 
 .disp{
@@ -289,6 +292,10 @@ input{
    
 }
 
+.mn-txt:hover{
+   border: 1px solid rgb(255, 255, 255);
+}
+
 div h3{
    color: aqua;
 }
@@ -314,8 +321,12 @@ h2, p{
    color: rgb(0, 0, 0);
 }
 
+P{
+   color: white;
+}
+
 h1{
-   color: #1363DF;
+   color: #ffffff;
 }
 
 .mn-txt2{
@@ -347,12 +358,15 @@ ul{
    display: flex;
    flex-direction: row;
    justify-content: center;
+   padding-left: 0px;
    
 }
 
 li{
-  justify-content:space-between;
-  padding: 15px;
+  justify-content:center;
+  padding: 10px;
+  
+  
 
 }
 footer{
@@ -367,7 +381,14 @@ footer p{
 }
 
 a:hover{
-   transform: rotate(360deg);
-   -webkit-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
+   border: 1px solid white ;
+   border-radius: 75%;
+   
+}
+
+.heading{
+   color: white;
+   text-transform: uppercase;
+   text-align: center;
+   
 }
